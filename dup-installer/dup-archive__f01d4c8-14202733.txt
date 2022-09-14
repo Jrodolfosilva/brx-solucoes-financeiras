@@ -1,0 +1,552 @@
+{
+    "dup_type": "lite",
+    "created": "2022-09-14 20:27:33",
+    "version_dup": "1.5.0",
+    "version_wp": "6.0.2",
+    "version_db": "5.7.23",
+    "version_php": "7.4.28",
+    "version_os": "Linux",
+    "blogname": "BRX Solu\u00e7\u00f5es Financeiras",
+    "exportOnlyDB": 0,
+    "secure_on": false,
+    "secure_pass": "$2a$08$mf1JXGWVlHy.rp1S0ulV7.SRw.GYsGde2pJe.5cwh\/NeXOtVjyciu",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "dbpass": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wps4_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "brxsolucoesfinanceiras.com",
+            "path": "\/",
+            "blogname": "BRX Solu\u00e7\u00f5es Financeiras",
+            "blog_prefix": "wps4_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "4",
+                    "user_login": "Admin",
+                    "id": "4"
+                },
+                {
+                    "ID": "1",
+                    "user_login": "Brx",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/brxsolucoesfinanceiras.com",
+            "fullSiteUrl": "https:\/\/brxsolucoesfinanceiras.com",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/home1\/brxsol10\/public_html\/wp-content\/uploads",
+            "fullUploadSafePath": "\/home1\/brxsol10\/public_html\/wp-content\/uploads",
+            "fullUploadUrl": "https:\/\/brxsolucoesfinanceiras.com\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "dbInfo": {
+        "buildMode": "MYSQLDUMP",
+        "charSetList": [
+            "utf8mb4"
+        ],
+        "collationList": [
+            "utf8mb4_unicode_520_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "brxsol10_wp521",
+        "tablesBaseCount": 24,
+        "tablesFinalCount": 24,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 8021,
+        "tablesSizeOnDisk": 52527104,
+        "tablesList": {
+            "wps4_aiowps_debug_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wps4_aiowps_events": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wps4_aiowps_failed_logins": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wps4_aiowps_global_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wps4_aiowps_login_activity": {
+                "inaccurateRows": 8,
+                "insertedRows": 8,
+                "size": 16384
+            },
+            "wps4_aiowps_login_lockdown": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wps4_aiowps_permanent_block": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wps4_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wps4_comments": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 98304
+            },
+            "wps4_duplicator_packages": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wps4_e_events": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wps4_e_submissions": {
+                "inaccurateRows": 4,
+                "insertedRows": 4,
+                "size": 294912
+            },
+            "wps4_e_submissions_actions_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 4,
+                "size": 16384
+            },
+            "wps4_e_submissions_values": {
+                "inaccurateRows": 15,
+                "insertedRows": 15,
+                "size": 49152
+            },
+            "wps4_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wps4_options": {
+                "inaccurateRows": 228,
+                "insertedRows": 234,
+                "size": 2605056
+            },
+            "wps4_postmeta": {
+                "inaccurateRows": 6964,
+                "insertedRows": 7021,
+                "size": 34537472
+            },
+            "wps4_posts": {
+                "inaccurateRows": 715,
+                "insertedRows": 830,
+                "size": 14368768
+            },
+            "wps4_termmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wps4_terms": {
+                "inaccurateRows": 4,
+                "insertedRows": 5,
+                "size": 49152
+            },
+            "wps4_term_relationships": {
+                "inaccurateRows": 6,
+                "insertedRows": 7,
+                "size": 32768
+            },
+            "wps4_term_taxonomy": {
+                "inaccurateRows": 4,
+                "insertedRows": 5,
+                "size": 49152
+            },
+            "wps4_usermeta": {
+                "inaccurateRows": 68,
+                "insertedRows": 68,
+                "size": 49152
+            },
+            "wps4_users": {
+                "inaccurateRows": 2,
+                "insertedRows": 3,
+                "size": 65536
+            }
+        },
+        "varLowerCaseTables": "0",
+        "dbEngine": "Percona",
+        "version": "5.7.23",
+        "versionComment": "Percona Server (GPL), Release 23, Revision 500fcf5",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 1,
+        "packageName": "20220914_brxsolucoesfinanceiras",
+        "packageHash": "f01d4c8-14202733",
+        "secondaryHash": "7f7a9f1-14202733"
+    },
+    "fileInfo": {
+        "dirCount": 1016,
+        "fileCount": 5867,
+        "size": 39718903
+    },
+    "wpInfo": {
+        "version": "6.0.2",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/home1\/brxsol10\/public_html",
+        "targetPaths": [
+            "\/home1\/brxsol10\/public_html"
+        ],
+        "adminUsers": [
+            {
+                "ID": "4",
+                "user_login": "Admin",
+                "id": "4"
+            },
+            {
+                "ID": "1",
+                "user_login": "Brx",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/home1\/brxsol10\/public_html\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8mb4",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "sr8f8qcjfaztxo9d4azvjbrc1nnqzo2roug6tyowf1vqaepshrtailqjtasfv74z",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "hsy2nywmczh323c64ze5qa0dqwxnw0qvktg5bchwrd7bpbofuslze08lokdboevl",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "fb8renqw9acxrzdwftuqyjnyitxjvteybt0dy8sbs9d5a4jfswsvqbssgbl9bg6k",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "q0xjcdylt1yh8vbktdrxuencfhrijpnamd0qrjlmzmnezzxfhmv0k1ahvlmhvkz8",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "6r1tqgkmeoynzvp5b0mthsh5hihhranjsekrebw1on2b28iw6x4vps6kfmjfcyrd",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "uhnrmu8tvigcf7jwkov11mgvtvr9p6rbcmzwxnhtlhhpcxwnnkl1dpfwwlcjjyfy",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "lfo6r1diymnclpkgyc63yxhwtwekd6bdcnbvvvyspop8bn5nojpqr6cs07dboor4",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "6bbfib4sngffupz6uczbp663qvdwpt0djy3pox5ma6zr75orqkybmpykfv8yujwx",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/home1\/brxsol10\/public_html\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "https:\/\/brxsolucoesfinanceiras.com\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/home1\/brxsol10\/public_html\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "https:\/\/brxsolucoesfinanceiras.com\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "512M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/home1\/brxsol10\/public_html\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/home1\/brxsol10\/public_html\/wp-content\/themes\/hello-elementor",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/home1\/brxsol10\/public_html\/wp-content\/themes\/hello-elementor",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/home1\/brxsol10\/public_html\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "https:\/\/brxsolucoesfinanceiras.com\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/brxsolucoesfinanceiras.com",
+                "homeUrl": "https:\/\/brxsolucoesfinanceiras.com",
+                "contentUrl": "https:\/\/brxsolucoesfinanceiras.com\/wp-content",
+                "uploadBaseUrl": "https:\/\/brxsolucoesfinanceiras.com\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/brxsolucoesfinanceiras.com\/wp-content\/plugins",
+                "mupluginsUrl": "https:\/\/brxsolucoesfinanceiras.com\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/brxsolucoesfinanceiras.com\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/home1\/brxsol10\/public_html",
+                    "abs": "\/home1\/brxsol10\/public_html",
+                    "wpconfig": "\/home1\/brxsol10\/public_html",
+                    "wpcontent": "\/home1\/brxsol10\/public_html\/wp-content",
+                    "uploads": "\/home1\/brxsol10\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home1\/brxsol10\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home1\/brxsol10\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home1\/brxsol10\/public_html\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/home1\/brxsol10\/public_html",
+                    "abs": "\/home1\/brxsol10\/public_html",
+                    "wpconfig": "\/home1\/brxsol10\/public_html",
+                    "wpcontent": "\/home1\/brxsol10\/public_html\/wp-content",
+                    "uploads": "\/home1\/brxsol10\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home1\/brxsol10\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home1\/brxsol10\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home1\/brxsol10\/public_html\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "all-in-one-wp-security-and-firewall\/wp-security.php": {
+                "slug": "all-in-one-wp-security-and-firewall\/wp-security.php",
+                "name": "All In One WP Security",
+                "version": "5.0.7",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/all-in-one-wp-security-and-firewall\/",
+                "author": "All In One WP Security & Firewall Team",
+                "authorURI": "https:\/\/teamupdraft.com\/",
+                "description": "All round best WordPress security plugin!",
+                "title": "All In One WP Security",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.0",
+                "pluginURI": "https:\/\/snapcreek.com\/duplicator\/duplicator-free\/",
+                "author": "Snap Creek",
+                "authorURI": "http:\/\/www.snapcreek.com\/duplicator\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "elementor\/elementor.php": {
+                "slug": "elementor\/elementor.php",
+                "name": "Elementor",
+                "version": "3.7.4",
+                "pluginURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash",
+                "author": "Elementor.com",
+                "authorURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash",
+                "description": "The Elementor Website Builder has it all: drag and drop page builder, pixel perfect design, mobile responsive editing, and more. Get started now!",
+                "title": "Elementor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "essential-addons-for-elementor-lite\/essential_adons_elementor.php": {
+                "slug": "essential-addons-for-elementor-lite\/essential_adons_elementor.php",
+                "name": "Essential Addons for Elementor",
+                "version": "5.2.4",
+                "pluginURI": "https:\/\/essential-addons.com\/elementor\/",
+                "author": "WPDeveloper",
+                "authorURI": "https:\/\/wpdeveloper.com\/",
+                "description": "The Essential plugin you install after Elementor! Packed with 40+ stunning free elements including Advanced Data Table, Event Calendar, Filterable Gallery, WooCommerce, and many more.",
+                "title": "Essential Addons for Elementor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "pro-elements\/pro-elements.php": {
+                "slug": "pro-elements\/pro-elements.php",
+                "name": "PRO Elements",
+                "version": "3.7.3",
+                "pluginURI": "https:\/\/proelements.org\/",
+                "author": "PROElements.org",
+                "authorURI": "https:\/\/proelements.org\/",
+                "description": "This plugin enables GPL features of Elementor Pro: widgets, theme builder, dynamic colors & content, forms & popup builder, and more. Note that PRO Elements is not a substitute for Elementor Pro. If you need all Elementor Pro features, including access to pro templates library and dedicated support, we encourage you to <a href=\"https:\/\/elementor.com\/pro\/\" target=\"_blank\">purchase Elementor Pro<\/a>.",
+                "title": "PRO Elements",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "hello-elementor": {
+                "slug": "hello-elementor",
+                "themeName": "Hello Elementor",
+                "version": "2.6.1",
+                "themeURI": "https:\/\/elementor.com\/hello-theme\/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash",
+                "parentTheme": false,
+                "template": "hello-elementor",
+                "stylesheet": "hello-elementor",
+                "description": "A plain-vanilla &amp; lightweight theme for Elementor page builder",
+                "author": "Elementor Team",
+                "authorURI": "https:\/\/elementor.com\/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash",
+                "tags": [
+                    "accessibility-ready",
+                    "flexible-header",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "featured-images",
+                    "rtl-language-support",
+                    "threaded-comments",
+                    "translation-ready"
+                ],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            }
+        }
+    },
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "BRX Solu\u00e7\u00f5es Financeiras"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "20220914_brxsolucoesfinanceiras_f01d4c8b538d80e13517_20220914202733_installer-backup.php",
+    "package_name": "20220914_brxsolucoesfinanceiras_f01d4c8b538d80e13517_20220914202733_archive.zip",
+    "package_hash": "f01d4c8-14202733",
+    "package_notes": ""
+}

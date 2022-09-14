@@ -1,0 +1,176 @@
+@charset "UTF-8";
+/*
+Theme Name: Supermarket Zone
+Author: TheMagnifico52
+Theme URI: https://www.themagnifico.net/themes/free-supermarket-wordpress-theme/
+Author URI: https://www.themagnifico.net/
+Description: Supermarket zone is a multipurpose and responsive that is ideal to design all kinds of Ecommerce websites. You can develop an online store for grocery store, food delivery, electronics store, multivendor, clothing, luxury brands, fashion shop, agriculture, jewelry, retail store, furniture store, cosmetics and skincare products, sports and outdoors, beauty and health, home appliances and more. The theme utilizes bootstrap framework and offers a very user-friendly environment to work on. You can customize it freely using so many features and options for customization.  It offers full support for WooCommerce plugin aiding you to create a full-fledge WooCommerce store and allowing buyers to do safe transactions. It uses 100% secure and clean codes making your site free from errors and bugs. With the social media option you can display your social existence which helps your customers to trust and know your popularity. The responsive design is mobile-friendly to adjust perfectly in all devices screen sizes. The theme comes SEO optimized to aid your site with search engine ranking. It shows compatibility to various WordPress plugins like Contact form 7, WooCommerce, Mailchimp, Elementor. Your site will get ready in minutes using the drag and drop builder. and Faster page load times add to the core web vitals of your site.
+Version: 1.3
+Tested up to: 6.0
+Requires PHP: 7.2
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: digital-storefront
+Text Domain: supermarket-zone
+Tags: custom-logo, one-column, two-columns, wide-blocks, block-styles, editor-style, sticky-post, custom-background, custom-colors, custom-header, custom-menu, featured-images, flexible-header, full-width-template, threaded-comments, theme-options, rtl-language-support, left-sidebar, right-sidebar, grid-layout, blog, e-commerce, food-and-drink
+
+Supermarket Zone WordPress Theme has been created by TheMagnifico52(themagnifico.net), 2022.
+Supermarket Zone WordPress Theme is released under the terms of GNU GPL
+*/
+
+span.cart-value, .sidebar h5, .comment-respond input#submit, #button, .sidebar input[type="submit"], .sidebar button[type="submit"], #colophon, .post-navigation .nav-previous a:hover, .post-navigation .nav-next a:hover, .posts-navigation .nav-previous a:hover, .posts-navigation .nav-next a:hover, .main-navigation .sub-menu, .wp-block-button__link, .about-inner-box a, .pro-button a, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce .woocommerce-ordering select, .woocommerce-account .woocommerce-MyAccount-navigation ul li, .btn-primary, #top-slider button.owl-next:hover, #top-slider button.owl-prev:hover, .toggle-nav i,.sidebar .tagcloud a:hover{
+    background: #ef8b59;
+}
+a, .social-link i:hover, .article-box a, p.price, .woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price, .woocommerce-message::before, .woocommerce-info::before, .sidebar ul li a:hover, .widget a:hover, .widget a:focus{
+    color: #ef8b59;
+}
+.wp-block-quote, .wp-block-quote:not(.is-large):not(.is-style-large), .wp-block-pullquote{
+    border-color: #ef8b59 !important;
+}
+
+#top-slider button.owl-next, #top-slider button.owl-prev,.slider-inner-box a:hover, .about-inner-box a:hover,#button:hover, #button:active,.pro-button a:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+    background: #1d1d1d;
+}
+h1, h2, h3, h4, h5, h6,.slider-inner-box a,.product-asset i,.top-info p, .social-link span,.navbar-brand a,.serv-box h4 a{
+    color: #1d1d1d;
+}
+
+.slider-inner-box a{
+    background: #fff;
+}
+.slider-inner-box a:hover{
+    color: #fff;
+}
+
+.navbar-brand h1.site-title, p.site-title{
+    font-size: 25px;
+}
+
+.product-asset button {
+    background: url(assets/img/icon.png) no-repeat scroll 0 14px;
+}
+
+.slider-inner-box h1 {
+    text-transform: uppercase;
+}
+
+.serv-bg-box{
+    margin-top: 0px !important;
+    z-index: 0 !important;
+}
+
+/* Product Section */
+
+
+.product-box,.woocommerce ul.products li {
+    background: #fff;
+    box-shadow: 0 0 10px 3px #dfdfdf;
+    border-radius: 10px;
+    padding: 15px !important;
+    border: solid 1px #ddd;
+}
+.product-box p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.product-box p a{
+    color: #1d1d1d;
+}
+h5.price {
+    font-size: 15px;
+    margin: 5px 0;
+}
+.featured-review__stars .fas{
+    color: #ffc107;
+}
+.product-box .star-rating {
+  overflow: hidden;
+  position: relative;
+  height: 1em;
+  line-height: 1;
+  font-size: 1em;
+  width: 5.4em;
+  font-family: star;
+  color: #fdce38;
+}
+.product-box .star-rating::before {
+  content: "\73\73\73\73\73";
+  color: #d3ced2;
+  float: left;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.product-box .star-rating span::before {
+  content: "\53\53\53\53\53";
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+.product-box .star-rating span {
+  overflow: hidden;
+  float: left;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding-top: 1.5em;
+}
+.product-box .star-rating {
+  display: inline-block;
+  margin-top: 5px;
+}
+span.onsale {
+    top: 16px;
+    background: #1d1d1d;
+    padding: 5px 10px;
+    left: 31px;
+}
+#new-products hr {
+    width: 8%;
+    border-top: 2px solid #ef8b59;
+}
+a.added_to_cart.wc-forward{
+    margin: 10px 0px 0px 47px;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 6px;
+  animation: loading 2s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}
+
+.loading {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 99999;
+}    
+
+@keyframes loading {
+  0%,
+  100% {
+    transform: translatey(-2.5rem);
+    background-color: #fff;
+  }
+  50% {
+    transform: translatey(2.5rem);
+    background-color: #ef8b59;
+  }
+}
+
+
+@media screen and (max-width: 1000px){
+    .sidenav {
+        background: #ef8b59;
+    }
+    .slider-inner-box{
+        text-align: center;
+    }
+}
